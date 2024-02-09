@@ -1,0 +1,188 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+body{
+    margin: 0;
+
+}
+.header-container {
+    font-size: 14px;
+    padding: 10px;
+    margin: 0 ;
+    height: 30px;
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    height: 68px;
+    position: relative;
+    bottom: 10px; 
+    right: 0;
+
+
+}
+
+#inicia-sesion{
+color: #fff;
+background-color:#1a73e8;
+width: 110px;
+height: 0   ;
+padding: 16px;
+border: 3px solid transparent;
+border-radius: 8%;
+position: relative;
+margin: auto;
+margin-top: 18px;
+}
+
+#inicia-sesion a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    position: relative;
+    margin: auto;
+    bottom: 20px;
+    text-align: center;
+}
+
+a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    display: flex;
+    height: 40px;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.main-container{
+    display: flexbox;
+    position: relative;  
+    height: 761px;
+    margin: 0;
+    
+}
+
+.logo-img{
+    display: flexbox;
+    position: relative;
+    width: 15%;
+    height: auto;
+    margin: auto;
+    margin-top: 180px;
+    margin-left: 43%;
+    margin-right: 40%;
+
+
+}
+
+.main-input{
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flexbox;
+    margin: auto;
+    padding: 10px;
+    margin-right: 600px;
+    margin-left: 600px;
+}
+
+input{
+    border: none;
+    border-radius: 40px;
+    font-size: large;
+    width: 80%;
+    height: 10px;
+    margin: auto;
+}
+
+input:focus{
+    outline: none;
+}
+::placeholder{
+    text-align: center;
+}
+
+footer{
+    background-color: #f1f1f2;
+}
+
+.main-foot{
+    text-align: center;
+    
+}
+.main-foot div{
+    display: inline-block;
+    background-color: #F8F9FA;
+    border: 1px transparent;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 5px;
+
+
+}
+
+.main-foot div:hover{
+    border: 2px solid #f1f1f2;
+}
+
+.main-input a{
+    display: flexbox;
+}
+
+.thebest{
+    border: #1a73e8;
+    text-align: center;
+    margin: auto;
+}
+
+.thebest a{
+    color: blue;
+}
+.footer-container{ 
+    background-color: #f2f2f2;
+    display: flexbox;
+    position: relative;
+    margin-top: 10px;
+    height: 131px;
+
+}
+.footer-foot{
+    position: relative;
+    display: flexbox;
+    margin-top: 30px;
+    margin-left: -40px;
+    height: -10px;
+
+}
+
+.feet-pag{
+    width: 200px;
+    position: relative;
+    display: flexbox;
+    margin: auto ;
+    text-align: left;
+    height: -80px;
+}
+
+.feet-pag2{
+    margin: auto;
+}
+
